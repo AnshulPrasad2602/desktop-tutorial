@@ -85,35 +85,40 @@ public class emulator extends javax.swing.JFrame {
 
         jPanel2.setLayout(null);
 
-        jTextField2.setText("                              CS");
+        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2.setText("CS");
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
             }
         });
         jPanel2.add(jTextField2);
-        jTextField2.setBounds(0, 0, 190, 19);
+        jTextField2.setBounds(0, 0, 190, 22);
 
-        jTextField3.setText("                              DS");
+        jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3.setText("DS");
         jPanel2.add(jTextField3);
-        jTextField3.setBounds(0, 20, 190, 19);
+        jTextField3.setBounds(0, 20, 190, 22);
 
-        jTextField4.setText("                              SS");
+        jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4.setText("SS");
         jPanel2.add(jTextField4);
-        jTextField4.setBounds(0, 40, 190, 19);
+        jTextField4.setBounds(0, 40, 190, 22);
 
-        jTextField5.setText("                              ES");
+        jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5.setText("ES");
         jPanel2.add(jTextField5);
-        jTextField5.setBounds(0, 60, 190, 19);
+        jTextField5.setBounds(0, 60, 190, 22);
 
-        ip.setText("                               IP");
+        ip.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        ip.setText("IP");
         ip.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ipActionPerformed(evt);
             }
         });
         jPanel2.add(ip);
-        ip.setBounds(0, 80, 190, 19);
+        ip.setBounds(0, 80, 190, 22);
 
         jPanel1.add(jPanel2);
         jPanel2.setBounds(90, 140, 190, 110);
@@ -128,52 +133,56 @@ public class emulator extends javax.swing.JFrame {
         jPanel3.add(q1);
         q1.setBounds(0, 0, 100, 20);
         jPanel3.add(q2);
-        q2.setBounds(0, 20, 100, 19);
+        q2.setBounds(0, 20, 100, 22);
         jPanel3.add(q3);
-        q3.setBounds(0, 40, 100, 19);
+        q3.setBounds(0, 40, 100, 22);
         jPanel3.add(q4);
-        q4.setBounds(0, 60, 100, 19);
+        q4.setBounds(0, 60, 100, 22);
         jPanel3.add(q5);
         q5.setBounds(0, 80, 100, 20);
         jPanel3.add(q6);
-        q6.setBounds(0, 100, 100, 19);
+        q6.setBounds(0, 100, 100, 22);
 
         jPanel1.add(jPanel3);
         jPanel3.setBounds(790, 120, 100, 140);
 
         jPanel4.setLayout(null);
 
-        jTextField6.setText("                                       BP");
+        jTextField6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6.setText("BP");
         jPanel4.add(jTextField6);
-        jTextField6.setBounds(0, 170, 250, 19);
+        jTextField6.setBounds(0, 170, 250, 22);
 
-        jTextField7.setText("                                       SP");
+        jTextField7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7.setText("SP");
         jPanel4.add(jTextField7);
-        jTextField7.setBounds(0, 150, 250, 19);
+        jTextField7.setBounds(0, 150, 250, 22);
 
-        jTextField8.setText("                                       SI");
+        jTextField8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8.setText("SI");
         jPanel4.add(jTextField8);
-        jTextField8.setBounds(0, 130, 250, 19);
+        jTextField8.setBounds(0, 130, 250, 22);
 
-        jTextField9.setText("                                       DI");
+        jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9.setText("DI");
         jPanel4.add(jTextField9);
-        jTextField9.setBounds(0, 110, 250, 19);
+        jTextField9.setBounds(0, 110, 250, 22);
         jPanel4.add(dl);
-        dl.setBounds(0, 90, 130, 19);
+        dl.setBounds(0, 90, 130, 22);
         jPanel4.add(dh);
-        dh.setBounds(130, 90, 120, 19);
+        dh.setBounds(130, 90, 120, 22);
         jPanel4.add(cl);
-        cl.setBounds(0, 70, 130, 19);
+        cl.setBounds(0, 70, 130, 22);
         jPanel4.add(ch);
-        ch.setBounds(131, 70, 120, 19);
+        ch.setBounds(130, 70, 120, 22);
         jPanel4.add(bl);
-        bl.setBounds(0, 50, 130, 19);
+        bl.setBounds(0, 50, 130, 22);
         jPanel4.add(bh);
-        bh.setBounds(130, 50, 120, 19);
+        bh.setBounds(130, 50, 120, 22);
         jPanel4.add(al);
-        al.setBounds(0, 30, 130, 19);
+        al.setBounds(0, 30, 130, 22);
         jPanel4.add(ah);
-        ah.setBounds(130, 30, 120, 19);
+        ah.setBounds(130, 30, 120, 22);
 
         jPanel1.add(jPanel4);
         jPanel4.setBounds(90, 300, 250, 190);
@@ -201,7 +210,7 @@ public class emulator extends javax.swing.JFrame {
         jPanel1.add(jPanel5);
         jPanel5.setBounds(320, 520, 490, 30);
         jPanel1.add(databus);
-        databus.setBounds(180, 40, 720, 19);
+        databus.setBounds(180, 40, 720, 22);
 
         jLabel1.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
         jLabel1.setText("Data Bus");
