@@ -27,13 +27,230 @@ public class mbar extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        emul = new javax.swing.JFrame();
+        emulator = new javax.swing.JPanel();
+        jPanel3 = new javax.swing.JPanel();
+        jTextField2 = new javax.swing.JTextField();
+        jTextField3 = new javax.swing.JTextField();
+        jTextField4 = new javax.swing.JTextField();
+        jTextField5 = new javax.swing.JTextField();
+        ip = new javax.swing.JTextField();
+        jPanel4 = new javax.swing.JPanel();
+        q1 = new javax.swing.JTextField();
+        q2 = new javax.swing.JTextField();
+        q3 = new javax.swing.JTextField();
+        q4 = new javax.swing.JTextField();
+        q5 = new javax.swing.JTextField();
+        q6 = new javax.swing.JTextField();
+        jPanel5 = new javax.swing.JPanel();
+        jTextField6 = new javax.swing.JTextField();
+        jTextField7 = new javax.swing.JTextField();
+        jTextField8 = new javax.swing.JTextField();
+        jTextField9 = new javax.swing.JTextField();
+        dl = new javax.swing.JTextField();
+        dh = new javax.swing.JTextField();
+        cl = new javax.swing.JTextField();
+        ch = new javax.swing.JTextField();
+        bl = new javax.swing.JTextField();
+        bh = new javax.swing.JTextField();
+        al = new javax.swing.JTextField();
+        ah = new javax.swing.JTextField();
+        jPanel6 = new javax.swing.JPanel();
+        of = new javax.swing.JTextField();
+        df = new javax.swing.JTextField();
+        ifl = new javax.swing.JTextField();
+        tf = new javax.swing.JTextField();
+        sf = new javax.swing.JTextField();
+        zf = new javax.swing.JTextField();
+        af = new javax.swing.JTextField();
+        pf = new javax.swing.JTextField();
+        cf = new javax.swing.JTextField();
+        databus = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        jPanel7 = new javax.swing.JPanel();
+        mem4 = new javax.swing.JTextField();
+        mem1 = new javax.swing.JTextField();
+        mem2 = new javax.swing.JTextField();
+        mem3 = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
         jMenuBar2 = new javax.swing.JMenuBar();
-        jMenu3 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem3 = new javax.swing.JMenuItem();
+        newf = new javax.swing.JMenu();
+        newfile = new javax.swing.JMenuItem();
+        script = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
+
+        emulator.setBackground(new java.awt.Color(0, 0, 0));
+        emulator.setMinimumSize(new java.awt.Dimension(949, 483));
+        emulator.setLayout(null);
+
+        jPanel3.setLayout(null);
+
+        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2.setText("CS");
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
+        jPanel3.add(jTextField2);
+        jTextField2.setBounds(0, 0, 190, 19);
+
+        jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3.setText("DS");
+        jPanel3.add(jTextField3);
+        jTextField3.setBounds(0, 20, 190, 19);
+
+        jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4.setText("SS");
+        jPanel3.add(jTextField4);
+        jTextField4.setBounds(0, 40, 190, 19);
+
+        jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5.setText("ES");
+        jPanel3.add(jTextField5);
+        jTextField5.setBounds(0, 60, 190, 19);
+
+        ip.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        ip.setText("IP");
+        ip.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ipActionPerformed(evt);
+            }
+        });
+        jPanel3.add(ip);
+        ip.setBounds(0, 80, 190, 19);
+
+        emulator.add(jPanel3);
+        jPanel3.setBounds(90, 140, 190, 110);
+
+        jPanel4.setLayout(null);
+
+        q1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                q1ActionPerformed(evt);
+            }
+        });
+        jPanel4.add(q1);
+        q1.setBounds(0, 0, 100, 20);
+        jPanel4.add(q2);
+        q2.setBounds(0, 20, 100, 19);
+        jPanel4.add(q3);
+        q3.setBounds(0, 40, 100, 19);
+        jPanel4.add(q4);
+        q4.setBounds(0, 60, 100, 19);
+        jPanel4.add(q5);
+        q5.setBounds(0, 80, 100, 20);
+        jPanel4.add(q6);
+        q6.setBounds(0, 100, 100, 19);
+
+        emulator.add(jPanel4);
+        jPanel4.setBounds(790, 120, 100, 140);
+
+        jPanel5.setLayout(null);
+
+        jTextField6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6.setText("BP");
+        jPanel5.add(jTextField6);
+        jTextField6.setBounds(0, 170, 250, 19);
+
+        jTextField7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7.setText("SP");
+        jPanel5.add(jTextField7);
+        jTextField7.setBounds(0, 150, 250, 19);
+
+        jTextField8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8.setText("SI");
+        jPanel5.add(jTextField8);
+        jTextField8.setBounds(0, 130, 250, 19);
+
+        jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9.setText("DI");
+        jPanel5.add(jTextField9);
+        jTextField9.setBounds(0, 110, 250, 19);
+        jPanel5.add(dl);
+        dl.setBounds(0, 90, 130, 19);
+        jPanel5.add(dh);
+        dh.setBounds(130, 90, 120, 19);
+        jPanel5.add(cl);
+        cl.setBounds(0, 70, 130, 19);
+        jPanel5.add(ch);
+        ch.setBounds(130, 70, 120, 19);
+        jPanel5.add(bl);
+        bl.setBounds(0, 50, 130, 19);
+        jPanel5.add(bh);
+        bh.setBounds(130, 50, 120, 19);
+        jPanel5.add(al);
+        al.setBounds(0, 30, 130, 19);
+        jPanel5.add(ah);
+        ah.setBounds(130, 30, 120, 19);
+
+        emulator.add(jPanel5);
+        jPanel5.setBounds(90, 300, 250, 190);
+
+        jPanel6.setLayout(null);
+        jPanel6.add(of);
+        of.setBounds(0, 0, 50, 30);
+        jPanel6.add(df);
+        df.setBounds(50, 0, 50, 30);
+        jPanel6.add(ifl);
+        ifl.setBounds(100, 0, 50, 30);
+        jPanel6.add(tf);
+        tf.setBounds(150, 0, 50, 30);
+        jPanel6.add(sf);
+        sf.setBounds(200, 0, 50, 30);
+        jPanel6.add(zf);
+        zf.setBounds(250, 0, 50, 30);
+        jPanel6.add(af);
+        af.setBounds(300, 0, 50, 30);
+        jPanel6.add(pf);
+        pf.setBounds(350, 0, 50, 30);
+        jPanel6.add(cf);
+        cf.setBounds(400, 0, 50, 30);
+
+        emulator.add(jPanel6);
+        jPanel6.setBounds(320, 520, 490, 30);
+        emulator.add(databus);
+        databus.setBounds(180, 40, 720, 19);
+
+        jLabel1.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
+        jLabel1.setText("Data Bus");
+        emulator.add(jLabel1);
+        jLabel1.setBounds(510, 20, 110, 20);
+
+        jPanel7.setLayout(null);
+
+        mem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mem4ActionPerformed(evt);
+            }
+        });
+        jPanel7.add(mem4);
+        mem4.setBounds(0, 60, 100, 20);
+        jPanel7.add(mem1);
+        mem1.setBounds(0, 0, 100, 20);
+        jPanel7.add(mem2);
+        mem2.setBounds(0, 20, 100, 20);
+        jPanel7.add(mem3);
+        mem3.setBounds(0, 40, 100, 20);
+
+        emulator.add(jPanel7);
+        jPanel7.setBounds(910, 380, 100, 100);
+
+        javax.swing.GroupLayout emulLayout = new javax.swing.GroupLayout(emul.getContentPane());
+        emul.getContentPane().setLayout(emulLayout);
+        emulLayout.setHorizontalGroup(
+            emulLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(emulLayout.createSequentialGroup()
+                .addComponent(emulator, javax.swing.GroupLayout.PREFERRED_SIZE, 1088, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        emulLayout.setVerticalGroup(
+            emulLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(emulLayout.createSequentialGroup()
+                .addComponent(emulator, javax.swing.GroupLayout.PREFERRED_SIZE, 616, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -41,23 +258,33 @@ public class mbar extends javax.swing.JFrame {
         jPanel1.setMinimumSize(new java.awt.Dimension(812, 414));
         jPanel1.setLayout(null);
 
-        jMenu3.setText("File");
-
-        jMenuItem1.setText("New File");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        newf.setText("File");
+        newf.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                newfActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem1);
 
-        jMenuItem3.setText("Script Mode");
-        jMenu3.add(jMenuItem3);
+        newfile.setText("New File");
+        newfile.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                newfileActionPerformed(evt);
+            }
+        });
+        newf.add(newfile);
+
+        script.setText("Script Mode");
+        script.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                scriptActionPerformed(evt);
+            }
+        });
+        newf.add(script);
 
         jMenuItem4.setText("Save");
-        jMenu3.add(jMenuItem4);
+        newf.add(jMenuItem4);
 
-        jMenuBar2.add(jMenu3);
+        jMenuBar2.add(newf);
 
         jMenu4.setText("Edit");
         jMenuBar2.add(jMenu4);
@@ -78,9 +305,37 @@ public class mbar extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void newfileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_newfileActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+    }//GEN-LAST:event_newfileActionPerformed
+
+    private void newfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_newfActionPerformed
+        // TODO add your handling code here:
+        
+        
+    }//GEN-LAST:event_newfActionPerformed
+
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void ipActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ipActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ipActionPerformed
+
+    private void q1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_q1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_q1ActionPerformed
+
+    private void mem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mem4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mem4ActionPerformed
+
+    private void scriptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scriptActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+        emul.setVisible(true);
+    }//GEN-LAST:event_scriptActionPerformed
 
     /**
      * @param args the command line arguments
@@ -118,12 +373,57 @@ public class mbar extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenu jMenu3;
+    private javax.swing.JTextField af;
+    private javax.swing.JTextField ah;
+    private javax.swing.JTextField al;
+    private javax.swing.JTextField bh;
+    private javax.swing.JTextField bl;
+    private javax.swing.JTextField cf;
+    private javax.swing.JTextField ch;
+    private javax.swing.JTextField cl;
+    private javax.swing.JTextField databus;
+    private javax.swing.JTextField df;
+    private javax.swing.JTextField dh;
+    private javax.swing.JTextField dl;
+    private javax.swing.JFrame emul;
+    private javax.swing.JPanel emulator;
+    private javax.swing.JTextField ifl;
+    private javax.swing.JTextField ip;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenuBar jMenuBar2;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
+    private javax.swing.JTextField jTextField9;
+    private javax.swing.JTextField mem1;
+    private javax.swing.JTextField mem2;
+    private javax.swing.JTextField mem3;
+    private javax.swing.JTextField mem4;
+    private javax.swing.JMenu newf;
+    private javax.swing.JMenuItem newfile;
+    private javax.swing.JTextField of;
+    private javax.swing.JTextField pf;
+    private javax.swing.JTextField q1;
+    private javax.swing.JTextField q2;
+    private javax.swing.JTextField q3;
+    private javax.swing.JTextField q4;
+    private javax.swing.JTextField q5;
+    private javax.swing.JTextField q6;
+    private javax.swing.JMenuItem script;
+    private javax.swing.JTextField sf;
+    private javax.swing.JTextField tf;
+    private javax.swing.JTextField zf;
     // End of variables declaration//GEN-END:variables
 }
